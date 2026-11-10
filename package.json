@@ -1,0 +1,20 @@
+{
+  "name": "qingtu-delivery",
+  "version": "0.2.0",
+  "private": true,
+  "description": "擎图 · 不用学软件的交付管家:扫码报工 + 飞书老板早报 + 交期承诺",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/feishu.test.js && node test/api.test.js && node test/ui.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.11.1"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.7.0"
+  }
+}
